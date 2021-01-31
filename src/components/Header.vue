@@ -30,12 +30,12 @@
 			<nav class="main-menu">
 				<div class="wrapper">
 					<ul>
-						<li><a href="#">Парикмахерская</a></li>
-						<li><a href="#">Барбершоп</a></li>
-						<li><a href="#">Маникюр</a></li>
-						<li><a href="#">Педикюр</a></li>
-						<li><a href="#">Массаж</a></li>
-						<li><a href="#">Мебель</a></li>
+						<li><a href="#">Котики</a></li>
+						<li><a href="#">Котятки</a></li>
+						<li><a href="#">Кошки</a></li>
+						<li><a href="#">Коты</a></li>
+						<li><a href="#">Котяры</a></li>
+						<li><a href="#">Котопёсы</a></li>
 					</ul>
 				</div>
 			</nav>
@@ -97,6 +97,7 @@
 	}
 	.logo > img {
 		width: 80px;
+		margin-right: 10px;
 	}
 
 	.phone {

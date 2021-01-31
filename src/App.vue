@@ -1,14 +1,18 @@
 <template>
 	<div id="app">
 		<Header />
+		<Banner />
+		<Goods />
 	</div>
 </template>
 
 <script>
 	import Header from "@/components/Header";
+	import Banner from "@/components/Banner";
+	import Goods from "@/components/Goods";
 	export default {
 		name: 'App',
-		components: {Header}
+		components: {Goods, Banner, Header}
 	}
 </script>
 
@@ -41,9 +45,15 @@
 		padding: 0 1rem;
 	}
 	.button {
-		padding: .7rem 1.8rem;
+		padding: 13px 27px;
 		background-color: transparent;
 		border: 2px solid var(--color-accent);
 		border-radius: 1000px;
+		cursor: pointer;
+		transition: .3s ease;
+	}
+	.button:hover {
+		background-color: var(--color-accent);
+		color: white;
 	}
 </style>
